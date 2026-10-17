@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>AI Sleep Coach</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>AI Sleep Coach reads sleep stages, heart rate, HRV, blood oxygen, respiratory rate, wrist temperature and breathing-disturbance data from Apple Health to score last night and flag possible breathing disturbances. Data stays on your devices.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>AI Sleep Coach saves sleep sessions it records so they appear in Apple Health. It does not write a second copy of sleep Apple Watch already stored.</string>
+	<key>NSMotionUsageDescription</key>
+	<string>AI Sleep Coach uses wrist motion during an overnight session to estimate restlessness.</string>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIColorName</key>
+		<string>LaunchBackground</string>
+	</dict>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+</dict>
+</plist>
