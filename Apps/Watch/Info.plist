@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>Sleep Coach</string>
+	<key>WKApplication</key>
+	<true/>
+	<key>WKCompanionAppBundleIdentifier</key>
+	<string>com.stefandevelops.AISleepCoach</string>
+	<key>WKExtendedRuntimeSessionModes</key>
+	<array>
+		<string>sleep-tracking</string>
+	</array>
+	<key>NSHealthShareUsageDescription</key>
+	<string>AI Sleep Coach reads sleep and overnight heart data from Health so last night’s score can appear on the Watch.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>AI Sleep Coach may save a sleep session it records if Apple Watch has not already stored one for that night.</string>
+	<key>NSMotionUsageDescription</key>
+	<string>Wrist motion during a sleep session is used to estimate restlessness.</string>
+</dict>
+</plist>
